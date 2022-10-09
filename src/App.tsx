@@ -1,13 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+export const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Kanban Board</h1>
+      <h1>React</h1>
     </div>
   );
-}
-
-export default App;
+};
